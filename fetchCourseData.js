@@ -60,7 +60,7 @@ const fetchCourseData = async (cookie, userAgent, classNo, courseCode) => {
 
     if (foundData) {
       console.log(
-        `Class Number: ${foundData.classNumber}\nCourse: ${foundData.course}\nSection: ${foundData.section}\nProfessor: ${foundData.professor}\nCapacity: ${foundData.capacity}\nEnrolled: ${foundData.enrolled}\nRemarks: ${foundData.remarks}`
+        `Class Number: ${foundData.classNumber}\nCourse: ${foundData.course}\nSection: ${foundData.section}\nProfessor: ${foundData.professor}\nCapacity: ${foundData.capacity}\nEnrolled: ${foundData.enrolled}\nRemarks: ${foundData.remarks}\n\nOn standby for any updates...`
       );
       return { data: foundData };
     } else {

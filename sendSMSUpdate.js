@@ -26,7 +26,7 @@ const sendSMSUpdate = (phoneNumbers, message) => {
     });
 };
 
-sendSMSUpdate(
-  ["09177074814"],
-  "Hello world! Test message from johnwhoyou using ITEXMO API. atay ngano di man mugana"
-);
+// sendSMSUpdate(
+//   ["09177074814"],
+//   "Hello world! Test message from johnwhoyou using ITEXMO API. atay ngano di man mugana"
+// );
